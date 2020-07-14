@@ -1,0 +1,21 @@
+name: gesture_recorder
+description:
+  A tool to record gestures for a flutter app for generating a test case, and
+  for replaying the recorded gestures for test purposes.
+version: 0.0.1
+
+environment:
+  sdk: ">=2.8.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  test: any
+  e2e: ^0.6.0
+
+dev_dependencies:
+  pedantic: ^1.8.0
